@@ -30,7 +30,9 @@
 
 # print("Prosta pętla for — wypisanie liczb od 1 do 10")
 
-# for i in range(1, 11):
+# x = int(input('Podaj x: '))
+
+# for i in range(1, x+1):
 #     print("Liczba:", i)
 
 # print()
@@ -75,7 +77,7 @@
 # print("Pętla while — dopóki licznik < 5")
 
 # licznik = 0
-# while licznik < 5:
+# while licznik <= 5:
 #     print("Iteracja nr:", licznik)
 #     licznik += 1
 
@@ -91,10 +93,12 @@
 
 # print("[3] Pętla while — powtarzanie prób połączenia")
 
-# url = "https://httpbin.org/status/503"
+# url = "https://httpbin.org/status/200"
 # max_proby = 3
 # licznik = 0
 # udalo_sie = False
+
+# import requests
 
 # while licznik < max_proby and not udalo_sie:
 #     licznik += 1
@@ -126,7 +130,8 @@
 
 # print("Iteracja po liście imion")
 
-# imiona = ["Ala", "Jan", "Ola", "Tomek"]
+#imiona = ["Ala", "Jan", "Ola", "Tomek"]
+
 
 # for imie in imiona:
 #     print("Cześć,", imie + "!")
